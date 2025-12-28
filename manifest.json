@@ -1,0 +1,30 @@
+{
+    "manifest_version": 3,
+    "name": "MenuWADloader",
+    "version": "1.0.0",
+    "description": "Download WAD files for the Wii Menu in just 3 clicks!",
+    "author": "ma007rio (FEuser on WiiBrew)",
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "downloads",
+        "storage"
+    ],
+    "host_permissions": [
+        "https://repo.mariocube.com/*"
+    ],
+    "options_ui": {
+        "page": "popup.html",
+        "open_in_tab": false
+    },
+    "content_security_policy": {
+        "extension_pages": "script-src 'self'; object-src 'self'"
+    },
+    "applications": {
+        "gecko": {
+            "id": "MenuWADloader@ma007rio.github.io",
+            "strict_min_version": "109.0"
+        }
+    }
+}
