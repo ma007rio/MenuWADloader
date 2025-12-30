@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
     '3.3U','3.3E','3.3J','3.3K',
     '3.4U','3.4E','3.4J',
     '3.5K',
-    '4.0U','4.0E','4.0J','4.0K',
+    '4.0U','4.0E','4.0J',
     '4.1U','4.1E','4.1J','4.1K',
     '4.2U','4.2E','4.2J','4.2K',
     '4.3U','4.3E','4.3J','4.3K'
@@ -81,4 +81,5 @@ document.addEventListener('DOMContentLoaded', () => {
     const version = versionSelect.value;
     downloadWad(version);
   });
+
 });
